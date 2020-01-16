@@ -1147,8 +1147,17 @@ margin-left: 33px;
 .labinp input:focus{
     
       box-shadow: 0px 6px 8px -4px rgba(0, 0, 0, 0.4);
+ 
 
 }
+
+.labinp textarea:focus{
+    
+      box-shadow: 0px 6px 8px -4px rgba(0, 0, 0, 0.4);
+       border-color:white;
+
+}
+
 
 #send {
     cursor: pointer;
@@ -1168,6 +1177,206 @@ margin-left: 33px;
     background-color: black;
     
 }
+
+
+.notAMember{
+    
+    display: block;
+        margin-top: -25px;
+    margin-bottom: 21px;
+    color: rgb(0, 175, 255);
+    
+}
+
+.notAMember:hover{
+    color: black;
+
+    
+}
+
+
+.ulFile{
+    margin-bottom: 60px;
+}
+
+.ulFile input{
+    font-family: popins
+        
+}
+
+#upload {
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    font-size: 14px;
+    background-color: black;
+    font-family: popins;
+    margin-left: 14px;
+}
+#upload:hover {
+   background-color: rgb(0, 175, 255);
+   
+}
+
+/* SPECIAL TRICK*/
+
+input[type="file"] {
+    display: none;
+}
+
+
+.custom-file-upload {
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 9px 12px;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    font-size: 14px;
+    background-color: rgb(0, 175, 255);
+    font-family: popins;
+}
+
+
+
+/*AD DETAIL PAGE*/
+
+
+
+.adDetailPage{
+    
+    background-color: rgb(244, 246, 253);
+    width: 100%;
+    padding-bottom: 60px;
+    
+}
+
+.ImgSliderdiv{
+       background-color: white;
+ padding-bottom: 30px;
+    margin-bottom: 45px;
+    overflow: hidden;
+}
+
+.ImgSliderdivh1{
+  padding-top: 16px;
+    margin: 0px;
+    color: black;
+    font-family: Popins;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 56px;
+    padding-left: 14px;
+}
+
+
+ 
+.ImgSliderdivLeft{
+         background-color: white;
+    height: 500px;
+    margin-bottom: 45px;
+    padding-left: 28px;
+    padding-top: 20px;
+/*    font-family: popins;*/
+}
+
+.ImgSliderdivLeft h2{
+    margin-top: 11px;
+}
+    
+
+.details{
+    margin-top: 30px;
+    
+}
+.details h3{
+    font-size: 24px;
+    color: rgb(0, 175, 255);
+    
+    
+}
+.details p{
+    font-weight: 500;
+    
+    
+}
+
+
+.AddDiscription{
+    background-color: white;
+}
+
+.AddDiscription h2{
+      color: #000;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 35px;
+    font-family: popins;
+    padding-top: 15px;
+    padding-left: 9px;
+}
+
+.AddDiscription p{
+    padding-left: 9px;
+    color: #555;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+        padding-bottom: 35px;
+
+    
+}
+
+
+.carousel-item{
+    height: 400px;
+} 
+.carousel-item img{
+    height: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
